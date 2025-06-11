@@ -1,7 +1,7 @@
 {
-  "name": "@nicky-lenaers/ngx-scroll-to",
+  "name": "@BiocomputingUP/ngx-scroll-to",
   "description": "A simple Angular 4+ plugin enabling you to smooth scroll to any element on your page and enhance scroll-based features in your app.",
-  "version": "14.0.0",
+  "version": "15.0.0",
   "license": "MIT",
   "private": false,
   "keywords": [
@@ -40,7 +40,9 @@
     "angular13",
     "angular 13",
     "angular14",
-    "angular 14"
+    "angular 14",
+    "angular15",
+    "angular 15"
   ],
   "author": {
     "name": "Nicky Lenaers",
@@ -49,15 +51,19 @@
   "contributors": [
     {
       "name": "Robbert van Caem"
+    },
+    {
+      "name": "Adel Bouhraoua",
+      "email": "adelbouhraoua23@gmail.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicky-lenaers/ngx-scroll-to.git"
+    "url": "git+https://github.com/BioComputingUP/ngx-scroll-to.git"
   },
-  "homepage": "https://github.com/nicky-lenaers/ngx-scroll-to#readme",
+  "homepage": "https://github.com/BioComputingUP/ngx-scroll-to.git#readme",
   "bugs": {
-    "url": "https://github.com/nicky-lenaers/ngx-scroll-to/issues"
+    "url": "https://github.com/BioComputingUP/ngx-scroll-to.git/issues"
   },
   "engines": {
     "node": ">=16.18.0",

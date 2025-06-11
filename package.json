@@ -1,6 +1,6 @@
 {
-  "name": "@nicky-lenaers/ngx-scroll-to-demo",
-  "description": "Demo Application for @nicky-lenaers/ngx-scroll-to package.",
+  "name": "@adelbke/ngx-scroll-to-demo",
+  "description": "Demo Application for @BiocomputingUP/ngx-scroll-to package.",
   "version": "15.0.0",
   "license": "MIT",
   "scripts": {
@@ -21,13 +21,17 @@
     "lib:package": "yarn build:lib && yarn copy:readme && cd ./dist/ngx-scroll-to && yarn pack",
     "prelib:publish": "yarn lib:package",
     "lib:publish": "cd ./dist/ngx-scroll-to && yarn publish --access=public",
-    "tags": "yarn tag list @nicky-lenaers/ngx-scroll-to",
+    "tags": "yarn tag list @BiocomputingUP/ngx-scroll-to",
     "prepare": "husky install"
   },
   "private": false,
   "contributors": [
     {
       "name": "Robbert van Caem"
+    },
+    {
+      "name": "Adel Bouhraoua",
+      "email": "adelbouhraoua23@gmail.com"
     }
   ],
   "author": {
@@ -36,11 +40,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicky-lenaers/ngx-scroll-to.git"
+    "url": "git+https://github.com/BioComputingUP/ngx-scroll-to.git.git"
   },
-  "homepage": "https://github.com/nicky-lenaers/ngx-scroll-to#readme",
+  "homepage": "https://github.com/BioComputingUP/ngx-scroll-to.git#readme",
   "bugs": {
-    "url": "https://github.com/nicky-lenaers/ngx-scroll-to/issues"
+    "url": "https://github.com/BioComputingUP/ngx-scroll-to.git/issues"
   },
   "dependencies": {
     "@angular/animations": "^15.2.10",
@@ -77,7 +81,7 @@
     "copyfiles": "^2.4.1",
     "cypress": "^10.10.0",
     "eslint": "^8.28.0",
-    "husky": "^8.0.3",
+    "husky": "^8.0.1",
     "jasmine-core": "~4.4.0",
     "karma": "~6.4.1",
     "karma-chrome-launcher": "~3.1.1",
