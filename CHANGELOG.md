@@ -1,3 +1,10 @@
+# [15.0.0](https://github.com/nicky-lenaers/ngx-scroll-to/compare/14.0.0...15.0.0) (2025-06-25)
+
+
+BREAKING CHANGES
+
+* Angular version updated to v15
+
 # [14.0.0](https://github.com/nicky-lenaers/ngx-scroll-to/compare/13.0.0...14.0.0) (2022-10-24)
 
 

@@ -1,6 +1,6 @@
 {
-  "name": "@adelbke/ngx-scroll-to-demo",
-  "description": "Demo Application for @BiocomputingUP/ngx-scroll-to package.",
+  "name": "@biocomputingup/ngx-scroll-to-demo",
+  "description": "Demo Application for @biocomputingup/ngx-scroll-to package.",
   "version": "15.0.0",
   "license": "MIT",
   "scripts": {
@@ -21,7 +21,7 @@
     "lib:package": "yarn build:lib && yarn copy:readme && cd ./dist/ngx-scroll-to && yarn pack",
     "prelib:publish": "yarn lib:package",
     "lib:publish": "cd ./dist/ngx-scroll-to && yarn publish --access=public",
-    "tags": "yarn tag list @BiocomputingUP/ngx-scroll-to",
+    "tags": "yarn tag list @biocomputingup/ngx-scroll-to",
     "prepare": "husky install"
   },
   "private": false,
