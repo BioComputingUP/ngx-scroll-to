@@ -1,7 +1,7 @@
 {
   "name": "@biocomputingup/ngx-scroll-to",
   "description": "A simple Angular 4+ plugin enabling you to smooth scroll to any element on your page and enhance scroll-based features in your app.",
-  "version": "15.0.0",
+  "version": "16.0.0",
   "license": "MIT",
   "private": false,
   "keywords": [
@@ -42,7 +42,9 @@
     "angular14",
     "angular 14",
     "angular15",
-    "angular 15"
+    "angular 15",
+    "angular16",
+    "angular 16"
   ],
   "author": {
     "name": "Nicky Lenaers",
@@ -70,8 +72,8 @@
     "yarn": ">=1.22.18"
   },
   "peerDependencies": {
-    "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0"
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
